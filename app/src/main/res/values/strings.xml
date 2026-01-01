@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SynoMatch</string>
+    <string name="_10_mots">10 mots</string>
+    <string name="_20_mots">20 mots</string>
 </resources>
