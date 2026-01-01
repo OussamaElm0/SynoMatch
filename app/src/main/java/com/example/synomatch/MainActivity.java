@@ -1,5 +1,6 @@
 package com.example.synomatch;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -42,7 +43,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void goToSynonymsActivity(int synonymesNumber) {
-        Log.d("GO TO SYNONYMS ACTIVITY", "Synonyms number: " + synonymesNumber );
+    private void goToSynonymsActivity(int synonymsNumber) {
+        Log.d("GO TO SYNONYMS ACTIVITY", "Synonyms number: " + synonymsNumber );
+        Intent intent = new Intent(this, QuestionActivity.class);
+        intent.putExtra("MODE", synonymsNumber);
+
+        startActivity(intent);
     }
 }
