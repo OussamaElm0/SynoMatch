@@ -1,0 +1,39 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "lemma": "abaissement",
+      "synonyms": ["affaissement", "affaiblissement", "baisse", "chute", "descente", "dévaluation", "diminution"]
+    },
+    {
+      "id": 2,
+      "lemma": "abaissement",
+      "synonyms": ["abjection", "avilissement", "bassesse", "déchéance", "déclin", "dégénérescence", "humiliation"]
+    },
+    {
+      "id": 3,
+      "lemma": "abaisser",
+      "synonyms": ["affaisser", "affaiblir", "baisser", "dévaluer", "diminuer", "réduire"]
+    },
+    {
+      "id": 4,
+      "lemma": "abaisser",
+      "synonyms": ["avilir", "corrompre", "dépraver", "humilier", "rebaisser", "ravaler à", "salir"]
+    },
+    {
+      "id": 5,
+      "lemma": "abondonner",
+      "synonyms": ["céder", "cesser", "démmissionner", "donner", "évacuer", "laisser", "quitter", "renoncer à", "se replier", "se retirer", "se séparer de"]
+    },
+    {
+      "id": 6,
+      "lemma": "abosourdir",
+      "synonyms": ["abêtir", "abrutir", "choquer", "ébahir", "étonner", "étourdir", "hébéter", "méduser", "sidérer"]
+    },
+    {
+      "id": 7,
+      "lemma": "abâtardir",
+      "synonyms": ["abaisser", "altérer", "dégénérer", "dénaturer", "corrompre", "dépraver"]
+    }
+  ]
+}
