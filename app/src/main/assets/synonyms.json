@@ -34,6 +34,81 @@
       "id": 7,
       "lemma": "abâtardir",
       "synonyms": ["abaisser", "altérer", "dégénérer", "dénaturer", "corrompre", "dépraver"]
+    },
+    {
+      "id": 8,
+      "lemma": "abattre",
+      "synonyms": ["briser", "démolir", "détruire", "massacrer", "raser", "renverser", "ruiner", "tuer"]
+    },
+    {
+      "id": 9,
+      "lemma": "s'abbatre",
+      "synonms": ["fondre sur", "se précipiter", "se ruer", "submerger"]
+    },
+    {
+      "id": 10,
+      "lemma": "abattu",
+      "synonyms": ["accablé", "mélancolique", "morose", "postré", "terrassé", "triste"]
+    },
+    {
+      "id": 11,
+      "lemma": "abbaye",
+      "synonyms": ["cloître", "couvent", "monastère", "prieuré"]
+    },
+    {
+      "id": 12,
+      "lemma": "abcès",
+      "synonyms": ["anthrax", "bubon", "chancre", "dépôt", "enflure", "furoncle", "gonflement", "panaris", "tumeur", "pustule"]
+    },
+    {
+      "id": 13,
+      "lemma": "abdication",
+      "synonyms": ["abandon", "capitulation", "démission", "renonciation", "résignation"]
+    },
+    {
+      "id": 14,
+      "lemma": "abdiquer",
+      "synonyms": ["se démettre", "démissionner", "quitter", "renoncer"]
+    },
+    {
+      "id": 15,
+      "lemma": "abdomen",
+      "synonyms": ["bas-ventre", "panse", "ventre"]
+    },
+    {
+      "id": 16,
+      "lemma": "aberrant",
+      "synonyms": ["absurde", "déraisonnable", "grotesque", "imbécile", "insesé", "ridicule", "sangrenu", "stupide"]
+    },
+    {
+      "id": 17,
+      "lemma": "aberration",
+      "synonyms": ["absurdité", "erreur", "extravagance", "imbécillité", "stupidité"]
+    },
+    {
+      "id": 18,
+      "lemma": "abêtir",
+      "synonyms": ["abrutir", "crétiniser", "rendre bête"]
+    },
+    {
+      "id": 19,
+      "lemma": "abhorrer",
+      "synonyms": ["abominer", "détester", "exécrer", "haïr", "maudire"]
+    },
+    {
+      "id": 20,
+      "lemma": "abîme",
+      "synonyms": ["abysse", "gouffre", "précipice"]
+    },
+    {
+      "id": 21,
+      "lemma": "abîmer",
+      "synonyms": ["casser", "dégrader", "endommager", "gâter", "saccager"]
+    },
+    {
+      "id": 22,
+      "lemma": "s'abîmer",
+      "synonyms": ["s'abandonner à", "s'adonner à", "s'enfoncer dans", "sombrer"]
     }
   ]
 }
