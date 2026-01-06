@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="frozen_water">#D2F1E4</color>
+    <color name="cerulean">#086788</color>
+    <color name="blue_green">#07A0C3</color>
 </resources>
