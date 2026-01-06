@@ -96,8 +96,8 @@ public class QuestionActivity extends AppCompatActivity {
         for (int i = 0; i < 4; i++) {
             Button btn = optionButtons[i];
 
-            btn.setBackgroundColor(Color.BLUE);
-            btn.setTextColor(Color.WHITE);
+            btn.setBackgroundColor(getResources().getColor(R.color.frozen_water));
+            btn.setTextColor(getResources().getColor(R.color.blue_green));
 
             if (i < currentItem.options.size()) {
                 btn.setText(currentItem.options.get(i));
@@ -114,6 +114,7 @@ public class QuestionActivity extends AppCompatActivity {
         isAnswered = true;
 
         String selectedText = selectedBtn.getText().toString();
+        selectedBtn.setTextColor(Color.WHITE);
 
         if (selectedText.equals(correctAnswer)) {
             score++;
@@ -128,6 +129,7 @@ public class QuestionActivity extends AppCompatActivity {
             for (Button btn : optionButtons) {
                 if (btn.getText().toString().equals(correctAnswer)) {
                     btn.setBackgroundColor(Color.GREEN);
+                    btn.setTextColor(Color.WHITE);
                 }
             }
         }
