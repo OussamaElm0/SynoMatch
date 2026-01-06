@@ -42,14 +42,14 @@ public class SynonymsRepository {
                 LemmaData data = dataByLemmaNorm.get(lemmaNorm);
                 if (data == null) {
                     data = new LemmaData();
-                    data.displayLemma = safeTrim(w.lemma);
+                    data.displayLemma = capitalizeFirst(w.lemma);
                     dataByLemmaNorm.put(lemmaNorm, data);
                     allLemmaDisplay.add(data.displayLemma);
                 }
 
                 if (w.synonyms != null) {
                     for (String s : w.synonyms) {
-                        String synDisplay = safeTrim(s);
+                        String synDisplay = capitalizeFirst(s);
                         String synNorm = normalize(synDisplay);
                         if (!synNorm.isEmpty()) {
                             if (data.synNorm.add(synNorm)) {
@@ -104,7 +104,12 @@ public class SynonymsRepository {
         return n.toLowerCase(Locale.FRENCH).trim();
     }
 
-    private static String safeTrim(String s) {
-        return s == null ? "" : s.trim();
+    private static String capitalizeFirst(String s) {
+        if (s == null) return "";
+
+        s = s.trim();
+        if(s.isEmpty()) return "";
+
+        return s.substring(0, 1).toUpperCase() + s.substring(1);
     }
 }
