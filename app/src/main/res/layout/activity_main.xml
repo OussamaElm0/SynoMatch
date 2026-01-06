@@ -24,9 +24,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="60dp"/>
 
-    <!-- Instructions -->
-
-    <!-- Buttons container -->
     <TextView
         android:id="@+id/tvInstructions"
         android:layout_width="0dp"
